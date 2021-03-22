@@ -1,0 +1,28 @@
+{
+  "name": "platform",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^4.3.6",
+    "firebase": "^8.3.1",
+    "heroicons": "^0.4.2",
+    "js-base64": "^3.6.0",
+    "swrv": "^0.9.3",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.1",
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.3",
+    "vite": "^2.0.5",
+    "vite-plugin-voie": "^0.7.3"
+  }
+}

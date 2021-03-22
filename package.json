@@ -1,0 +1,21 @@
+{
+  "name": "oestad",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cd platform && yarn dev",
+    "dev:app": "concurrently \"cd platform && yarn dev\" \"cap open ios\"",
+    "build": "cd platform && yarn build",
+    "open:ios": "npx cap sync && cap open ios",
+    "install": "yarn build && npx cap sync",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@capacitor/cli": "^2.4.7",
+    "@capacitor/core": "^2.4.7",
+    "@capacitor/ios": "2.4.7",
+    "concurrently": "^6.0.0",
+    "vercel": "^21.3.3"
+  }
+}

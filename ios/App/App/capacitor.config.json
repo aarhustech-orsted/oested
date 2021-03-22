@@ -1,0 +1,16 @@
+{
+  "appId": "io.oested.app",
+  "appName": "oested",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "server": {
+    "url": "http://localhost:3000"
+  },
+  "cordova": {}
+}
